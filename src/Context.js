@@ -7,7 +7,7 @@ const ConTextProvider = ({children}) => {
     const [array, setArray] = useState([])
     const [subArray, setSubArray] = useState([])
 
-    const url = "https://api.cloudflare.com/client/v4"
+    const url = "https://midnight-sec-back.onrender.com/api/products/"
     const getDate = async () => {
         const response = await fetch(url)
         const data = await response.json()
